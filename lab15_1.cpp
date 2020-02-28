@@ -45,8 +45,8 @@ void showData(double *data,int N,int M){
 }
 
 void findRowSum(const double *data,double *output,int N,int M){
-	for(int i=0;i < N;i++){
-		for(int j=0; j<M; j++){
+	for(int i=0;i < N ;i++){
+		for(int j=0; j<M ; j++){
 			*(output+i) += *(data+i*M+j);
 		}
 	}
